@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color:white;
+    background-color: black;
+}
+
+h1{
+    font-family: Mak,cursive;
+    text-align: center;
+}
+h2{
+    font-family: Inter, sans-serif;
+    text-align: left;
+    font-weight: lighter;
+}
+.container{
+    display: flex;
+    background-color: transparent;
+    overflow: hidden;
+
+}
+.img1{
+    width:560px;
+    height: 700px;
+    object-fit: cover;
+
+}
+.btn{
+    color: #fff;
+}
+.btn-success{
+    margin-left: 15px;
+}
+.btn a{
+   text-decoration: none;
+   color: white;
+}
